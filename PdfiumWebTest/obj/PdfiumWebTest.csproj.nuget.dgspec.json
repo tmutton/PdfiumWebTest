@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\code\\PdfiumWebTest\\PdfiumWebTest\\PdfiumWebTest.csproj": {}
+  },
+  "projects": {
+    "c:\\code\\PdfiumWebTest\\PdfiumWebTest\\PdfiumWebTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\code\\PdfiumWebTest\\PdfiumWebTest\\PdfiumWebTest.csproj",
+        "projectName": "PdfiumWebTest",
+        "projectPath": "c:\\code\\PdfiumWebTest\\PdfiumWebTest\\PdfiumWebTest.csproj",
+        "packagesPath": "C:\\Users\\tmutton\\.nuget\\packages\\",
+        "outputPath": "c:\\code\\PdfiumWebTest\\PdfiumWebTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tmutton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "PDFium.Windows": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "PDFiumSharp": {
+              "target": "Package",
+              "version": "[0.1.1-beta, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
